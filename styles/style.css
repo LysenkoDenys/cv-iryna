@@ -1,0 +1,160 @@
+*{
+  margin : 0;
+  padding :0;
+  box-sizing : border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --bg-color : #666C7B;
+  --primary-size : 2rem;
+  --secondary-size : 1.4rem;
+  --secondary-color : #FFFFFF;
+  --text-color : #232323;
+  --standart-margin : 3rem
+  }
+
+a {
+  text decoration : none;
+  colour:var(--text-color);
+}
+
+li {
+list-style-type : none;
+} 
+
+.container {
+display: flex; 
+}
+
+.info {
+  background-color : var(--bg-color);
+}
+
+.info__img {
+  width : 15rem;
+  margin : var(standart-margine);
+}
+
+.info__name {
+  margin-left : var(--standart-margin);
+  font-size : var(--primary-size);
+  color : var(--secondary-color);
+}
+
+.info__job {
+  color : #D7D7D7;
+  margin-left : var(--standart-margin);
+}
+
+.data {
+  margin-left : var(--standart-margin);
+}
+
+.data__item {
+  background-color : var(--secondary-color); 
+  margin-top : var(--standart-margin);
+  padding : calc(var(--secondary-size)+.6rem)
+}
+
+.data__item : first-child {
+  margin-top : 1rem;
+}
+
+.skills {
+  margin-left : var(--standart-margin);
+}
+
+.title {
+ margin-top : var(--standart-margin);
+ color : var(--secondary-color);
+}
+
+.skills__list {
+  margin-left : calc(var(--standart-margin) - 0.5rem);
+  color : var(--secondary-color);
+}
+
+.skills__item {
+  list-style-type : disc;
+  margin-top : calc(var(--standart-margin) - 0.5rem);
+}
+
+.hobbies {
+   margin: var(--standart-margin);
+}
+
+.hobbies__item {
+  margin-top : calc(var(--standart-margin) - 2rem);
+}
+
+.social-media {
+margin-left : var(--standart-margin);
+}
+
+.social-media__icon {
+  width : 2rem;
+  margin-top : calc(var(--standart-margin)+0.5rem);
+  margin-right : calc(var(--standart-margin)+1rem);
+}
+
+.about {
+  margin : var(--standart-margin);
+}
+
+.about__item {
+  margin-top : calc(var(--standart-margin)-0rem);
+}
+
+.education__wrapper {
+  margin-top : calc(var(--standart-margin)+rem);
+}
+
+.education {
+  display : flex;
+  justify-content : space-around;
+  margin-top : calc(var(--standart-margin)+2rem);
+}
+.education:last-child {
+  display:flex;
+  justify-content:space-around;
+  margin-top:calc(var(--standart-margin)+2rem);
+}
+
+.education__year {
+ width : 100%;
+}
+
+.education__info {
+  margin-top : calc(var(--standart-margin)-0rem);
+  /*margin-right : calc(var(--standart-margin)-70rem);*/
+  list-style-type : disc;
+}
+
+.education__info:first-child {
+  margin-top : 0rem;
+}
+
+.companies__wrapper {
+  margin-top : calc(var(--standart-margin)+2rem);
+}
+.title--dark {
+margin-bottom : calc(var(--standart-margin)+2rem);
+}
+
+.companies {
+  display : flex;
+  width : 100%
+  justify-content : space-between;
+  margin-right : 1rem;
+  margin-top : 1rem;
+}
+
+.logo {
+  width : 2rem;
+  margin-right : 1rem;
+}
+
+.companies__info {
+  display : flex;
+}
