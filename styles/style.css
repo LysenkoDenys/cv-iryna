@@ -6,17 +6,17 @@
 }
 
 :root {
-  --bg-color : #666C7B;
+  --bg-color : #95979c;
   --primary-size : 2rem;
   --secondary-size : 1.4rem;
   --secondary-color : #FFFFFF;
   --text-color : #232323;
-  --standart-margin : 3rem
+  --standard-margin : 3rem
   }
 
 a {
-  text decoration : none;
-  colour:var(--text-color);
+  text-decoration: none;
+  color:var(--text-color);
 }
 
 li {
@@ -29,31 +29,37 @@ display: flex;
 
 .info {
   background-color : var(--bg-color);
+  width : 80%;
 }
 
+/* .info__wrapper {
+ margin: 0 auto;
+} */
+
 .info__img {
-  width : 15rem;
-  margin : var(standart-margine);
+  width : 10rem;
+  margin : var(standard-margin);
+  border-radius: 50%;
 }
 
 .info__name {
-  margin-left : var(--standart-margin);
+  margin-left : var(--standard-margin);
   font-size : var(--primary-size);
   color : var(--secondary-color);
 }
 
 .info__job {
   color : #D7D7D7;
-  margin-left : var(--standart-margin);
+  margin-left : var(--standard-margin);
 }
 
 .data {
-  margin-left : var(--standart-margin);
+  margin-left : var(--standard-margin);
 }
 
 .data__item {
   background-color : var(--secondary-color); 
-  margin-top : var(--standart-margin);
+  margin-top : var(--standard-margin);
   padding : calc(var(--secondary-size)+.6rem)
 }
 
@@ -62,64 +68,71 @@ display: flex;
 }
 
 .skills {
-  margin-left : var(--standart-margin);
+  margin-left : var(--standard-margin);
 }
 
 .title {
- margin-top : var(--standart-margin);
+ margin-top : var(--standard-margin);
  color : var(--secondary-color);
 }
 
 .skills__list {
-  margin-left : calc(var(--standart-margin) - 0.5rem);
+  margin-left : calc(var(--standard-margin) - 0.5rem);
   color : var(--secondary-color);
 }
 
 .skills__item {
   list-style-type : disc;
-  margin-top : calc(var(--standart-margin) - 0.5rem);
+  margin-top : calc(var(--standard-margin) - 2rem);
 }
 
 .hobbies {
-   margin: var(--standart-margin);
+   margin: var(--standard-margin);
     color : var(--secondary-color);
 }
 
 .hobbies__item {
-  margin-top : calc(var(--standart-margin) - 2rem);
+  margin-top : calc(var(--standard-margin) - 2rem);
 }
 
+.social-media__list {
+margin: 10px;
+
+}
+
+
 .social-media {
-margin-left : var(--standart-margin);
+margin-left : var(--standard-margin);
+background-color : var(--bg-color);
 }
 
 .social-media__icon {
-  width : 2rem;
-  margin-top : calc(var(--standart-margin)+0.5rem);
-  margin-right : calc(var(--standart-margin)+1rem);
+  width : 2.5rem;
+  margin-top : calc(var(--standard-margin)+1rem);
+  margin-right : calc(var(--standard-margin)+3rem);
 }
 
 .about {
-  margin : var(--standart-margin);
+  margin : var(--standard-margin);
 }
 
 .about__item {
-  margin-top : calc(var(--standart-margin)-0rem);
+  margin-top : calc(var(--standard-margin)-0rem);
 }
 
 .education__wrapper {
-  margin-top : calc(var(--standart-margin)+rem);
+  margin-top : calc(var(--standard-margin)+rem);
 }
 
 .education {
   display : flex;
   justify-content : space-around;
-  margin-top : calc(var(--standart-margin)+2rem);
+  margin-top : calc(var(--standard-margin)+2rem);
 }
 .education:last-child {
   display:flex;
   justify-content:space-around;
-  margin-top:calc(var(--standart-margin)+2rem);
+  margin-top:calc(var(--standard-margin)+2rem);
 }
 
 .education__year {
@@ -127,8 +140,8 @@ margin-left : var(--standart-margin);
 }
 
 .education__info {
-  margin-top : calc(var(--standart-margin)-0rem);
-  /*margin-right : calc(var(--standart-margin)-70rem);*/
+  margin-top : calc(var(--standard-margin)-0rem);
+  /*margin-right : calc(var(--standard-margin)-70rem);*/
   list-style-type : disc;
 }
 
@@ -137,10 +150,10 @@ margin-left : var(--standart-margin);
 }
 
 .companies__wrapper {
-  margin-top : calc(var(--standart-margin)+2rem);
+  margin-top : calc(var(--standard-margin)+2rem);
 }
 .title--dark {
-margin-bottom : calc(var(--standart-margin)+2rem);
+margin-bottom : calc(var(--standard-margin)+2rem);
 }
 
 .companies {

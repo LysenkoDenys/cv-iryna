@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Oi
+- Font Author: Copyright 2019 The Oi Project Authors (github.com/kosbarts/Oi)
+- Font Source: http://fonts.gstatic.com/s/oi/v15/w8gXH2EuRqtaut6yjBOG.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
