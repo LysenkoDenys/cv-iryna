@@ -82,6 +82,7 @@ display: flex;
 
 .hobbies {
    margin: var(--standart-margin);
+    color : var(--secondary-color);
 }
 
 .hobbies__item {
