@@ -12,6 +12,7 @@
   --secondary-color: #ffffff;
   --text-color: #232323;
   --standard-margin: 3rem;
+  --shadow-color: #444343;
 }
 
 a {
@@ -25,39 +26,42 @@ li {
 
 .container {
   display: flex;
-  max-width: 50%;
+  max-width: 70%;
   align-content: center;
 }
 
 .info {
   background-color: var(--bg-color);
-  width: 60%;
+  width: 40%;
+}
+
+.info__wrapper {
+  margin: var(--standard-margin);
 }
 
 .info__img {
   width: 10rem;
   border-radius: 50%;
   margin: calc(var(--standard-margin) - 2rem) auto;
-  margin-left: calc(var(--standard-margin) + 3rem);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 5px 5px 5px var(--shadow-color);
 }
 
 .info__img:hover {
-  width: 11rem;
+  transform: scale(1.05);
 }
 
 .info__name {
-  margin-left: var(--standard-margin);
   font-size: var(--primary-size);
   color: var(--secondary-color);
 }
 
 .info__job {
   color: #d7d7d7;
-  margin-left: var(--standard-margin);
 }
 
 .target {
-  margin-left: var(--standard-margin);
+  margin: var(--standard-margin);
 }
 
 .target__job {
@@ -66,20 +70,21 @@ li {
 }
 
 .data {
-  margin-left: var(--standard-margin);
+  margin: var(--standard-margin);
 }
 
 .data__item {
   color: var(--secondary-color);
-  margin-top: calc(var(--standard-margin) - 2.8rem);
+  margin-top: calc(var(--standard-margin) - 2.5rem);
 }
 
 .skills {
-  margin-left: var(--standard-margin);
+  margin: var(--standard-margin);
 }
 
 .title {
   margin-top: var(--standard-margin);
+  margin-bottom: calc(var(--standard-margin) - 2rem);
   color: var(--secondary-color);
 }
 
@@ -90,7 +95,7 @@ li {
 
 .skills__item {
   list-style-type: disc;
-  margin-top: calc(var(--standard-margin) - 2.8rem);
+  margin-top: calc(var(--standard-margin) - 2.5rem);
 }
 
 .hobbies {
@@ -114,16 +119,25 @@ li {
 .social-media__icon {
   width: 2.5rem;
   margin-right: calc(var(--standard-margin) - 2rem);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 5px 5px 5px var(--shadow-color);
+  border-radius: 50%;
 }
 
 .social-media__icon:hover {
-  width: 2.6rem;
+  transform: scale(1.1);
+  box-shadow: 6px 6px 5px var(--shadow-color);
+}
+
+.social-media__icon:active {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 5px var(--shadow-color);
 }
 
 /* ========================================================================== */
 .about {
   margin: var(--standard-margin);
-  width: 60%;
+  width: 70%;
 }
 
 .about__item {
@@ -146,7 +160,7 @@ li {
 } */
 
 .education__year {
-  width: 40%;
+  font-weight: 500;
 }
 
 .education__info {
