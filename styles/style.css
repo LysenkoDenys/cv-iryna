@@ -27,7 +27,7 @@ li {
 .container {
   display: flex;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 1000px;
 }
 
 .info {
@@ -39,6 +39,21 @@ li {
 .info__wrapper {
   margin: var(--standard-margin);
 }
+@media (max-width: 992px) {
+  .info__wrapper {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .info__wrapper {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .info__wrapper {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
+}
 
 .info__img {
   width: 10rem;
@@ -47,6 +62,7 @@ li {
     calc(var(--standard-margin) + 2rem);
   transition: transform 0.3s ease-in-out;
   box-shadow: 5px 5px 5px var(--shadow-color);
+  max-width: 100%;
 }
 
 .info__img:hover {
@@ -65,6 +81,21 @@ li {
 .target {
   margin: var(--standard-margin);
 }
+@media (max-width: 992px) {
+  .target {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .target {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .target {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
+}
 
 .target__job {
   color: var(--secondary-color);
@@ -74,6 +105,21 @@ li {
 .data {
   margin: var(--standard-margin);
 }
+@media (max-width: 992px) {
+  .data {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .data {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .data {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
+}
 
 .data__item {
   color: var(--secondary-color);
@@ -82,6 +128,21 @@ li {
 
 .skills {
   margin: var(--standard-margin);
+}
+@media (max-width: 992px) {
+  .skills {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .skills {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .skills {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
 }
 
 .title {
@@ -104,6 +165,21 @@ li {
   margin: var(--standard-margin);
   color: var(--secondary-color);
 }
+@media (max-width: 992px) {
+  .hobbies {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .hobbies {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .hobbies {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
+}
 
 .hobbies__item {
   margin-top: calc(var(--standard-margin) - 2rem);
@@ -114,8 +190,23 @@ li {
 }
 
 .social-media {
-  margin-left: var(--standard-margin);
+  margin: var(--standard-margin);
   background-color: var(--bg-color);
+}
+@media (max-width: 992px) {
+  .social-media {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .social-media {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .social-media {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
 }
 
 .social-media__icon {
@@ -146,6 +237,21 @@ li {
 .about__info {
   margin: var(--standard-margin);
 }
+@media (max-width: 992px) {
+  .about__info {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .about__info {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .about__info {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
+}
 
 .about__item {
   margin-top: calc(var(--standard-margin) - 2rem);
@@ -153,6 +259,21 @@ li {
 
 .education__wrapper {
   margin: var(--standard-margin);
+}
+@media (max-width: 992px) {
+  .education__wrapper {
+    margin: calc(var(--standard-margin) - 1rem);
+  }
+}
+@media (max-width: 767px) {
+  .education__wrapper {
+    margin: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .education__wrapper {
+    margin: calc(var(--standard-margin) - 2.8rem);
+  }
 }
 
 .education {
@@ -163,6 +284,21 @@ li {
 
 .education__year {
   margin-right: calc(var(--standard-margin) + 4rem);
+}
+@media (max-width: 992px) {
+  .education__year {
+    margin-right: var(--standard-margin);
+  }
+}
+@media (max-width: 767px) {
+  .education__year {
+    margin-right: calc(var(--standard-margin) - 2rem);
+  }
+}
+@media (max-width: 479px) {
+  .education__year {
+    margin-right: calc(var(--standard-margin) - 2.8rem);
+  }
 }
 
 .education__info {
