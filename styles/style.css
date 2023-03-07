@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 
 :root {
@@ -20,9 +20,14 @@ li {
 }
 
 .container {
-  display: flex;
-  margin: auto auto;
+  background-color: rgb(87, 84, 84);
   max-width: 1000px;
+  margin: auto auto;
+}
+
+.undercover {
+  display: flex;
+  padding: 10px;
 }
 
 .info {
