@@ -11,7 +11,7 @@
 
   <body>
     <div class="container">
-      <div class="undercover">
+      <div class="frame">
         <div class="info">
           <div class="info__wrapper">
             <img class="info__img" src="./image/photo.png" />
@@ -32,18 +32,23 @@
 
             <ul class="data__list">
               <li class="data__item">
+                <img class="data__icon" src="./image/mail.png" alt="e-mail" />
                 <a
                   class="data__link"
                   href="mailto:lysenkoden@gmail.com"
                   target="_blank"
                 >
-                  Email: lysenkoden@gmail.com
+                  lysenkoden@gmail.com
                 </a>
               </li>
               <li class="data__item">
-                Phone: +420 720 669 115; <br />+380 506 045 095 (viber)
+                <img class="data__icon" src="./image/tel.png" alt="phone" />
+                +420 720 669 115; <br />+380 506 045 095 (viber)
               </li>
-              <li class="data__item">Address: Most, Czech Republic, 43401</li>
+              <li class="data__item">
+                <img class="data__icon" src="./image/loc.png" alt="location" />
+                Most, Czech Republic, 43401
+              </li>
             </ul>
           </div>
 
@@ -77,21 +82,25 @@
                 href="https://linkedin.com/in/lysenko-denys"
                 target="_blank"
               >
-                <img class="social-media__icon" src="./image/in.png" />
+                <img class="social-media__icon" src="./image/in.png" alt="in" />
               </a>
               <a
                 class="social-media__link"
                 href="https://www.facebook.com/profile.php?id=100001281440746"
                 target="_blank"
               >
-                <img class="social-media__icon" src="./image/fb.png" />
+                <img class="social-media__icon" src="./image/fb.png" alt="fb" />
               </a>
               <a
                 class="social-media__link"
                 href="https://github.com/LysenkoDenys"
                 target="_blank"
               >
-                <img class="social-media__icon" src="./image/git.png" />
+                <img
+                  class="social-media__icon"
+                  src="./image/git.png"
+                  alt="git"
+                />
               </a>
             </div>
           </div>
@@ -143,6 +152,22 @@
                 </li>
               </div>
             </div>
+          </div>
+
+          <div class="courses__wrapper">
+            <h2 class="title--dark">Courses</h2>
+
+            <ul class="courses__list">
+              <li class="courses__item">
+                time management, mentoring and coaching (CG "Allo");
+              </li>
+              <li class="courses__item">
+                solutions and prospects «emotional leadership» («BTG»);
+              </li>
+              <li class="courses__item">
+                analytics in logistics («Analitic Butique»).
+              </li>
+            </ul>
           </div>
 
           <div class="projects__wrapper">
@@ -215,7 +240,6 @@
         </div>
       </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
