@@ -6,7 +6,6 @@
 }
 
 :root {
-  --bg-color: #72946f;
   --primary-size: 2rem;
   --secondary-size: 1.4rem;
   --hover-size: 1.0625rem;
@@ -22,7 +21,7 @@ li {
 }
 
 .container {
-  background: url("../image/2.jpg");
+  background: url("../image/canvas.jpg");
   max-width: 1000px;
   margin: auto auto;
 }
@@ -48,7 +47,12 @@ li {
 }
 
 .info {
-  background-color: var(--bg-color);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.8267682072829132) 0%,
+    rgba(0, 139, 139, 1) 10%
+  );
   flex-wrap: wrap;
   width: 40%;
   color: var(--secondary-color);
@@ -102,12 +106,16 @@ li {
 }
 
 .info__name {
-  font-size: var(--primary-size);
-  text-align: center;
-  text-transform: uppercase;
-}
-.info__name:hover {
   font-size: calc(var(--primary-size) + 0.5rem);
+  text-align: center;
+}
+.info__name-first {
+  text-shadow: 1px 5px 2px rgb(0, 0, 0);
+}
+
+.info__name-last {
+  text-shadow: 1px 5px 2px rgb(0, 0, 0);
+  opacity: 0.8;
 }
 
 .info__job {
@@ -242,7 +250,7 @@ li {
   transition: transform 0.3s ease-in-out;
   box-shadow: 2px 2px 2px var(--shadow-color);
   border-radius: 50%;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
 }
 .data__icon:hover {
   transform: scale(1.1);
@@ -283,7 +291,7 @@ li {
   transition: transform 0.3s ease-in-out;
   box-shadow: 5px 5px 5px var(--shadow-color);
   border-radius: 50%;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
 }
 .social-media__icon:hover {
   transform: scale(1.1);
@@ -298,7 +306,12 @@ li {
 .about {
   flex-wrap: wrap;
   width: 70%;
-  background-color: #d7d7d7;
+  background: rgb(215, 215, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 215, 215, 1) 95%,
+    rgba(2, 0, 36, 0.5914740896358543) 100%
+  );
 }
 
 .education {
@@ -307,18 +320,18 @@ li {
 }
 
 .education__year {
-  margin-right: calc(var(--standard-margin) + 1rem);
+  margin-right: calc(var(--standard-margin) - 2rem);
   min-width: 120px;
 }
 
 @media (max-width: 992px) {
   .education__year {
-    margin-right: var(--standard-margin);
+    margin-right: calc(var(--standard-margin) - 2.2rem);
   }
 }
 @media (max-width: 767px) {
   .education__year {
-    margin-right: calc(var(--standard-margin) - 2rem);
+    margin-right: calc(var(--standard-margin) - 2.5rem);
   }
 }
 @media (max-width: 479px) {
