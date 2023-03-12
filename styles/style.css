@@ -174,11 +174,26 @@ li {
 .social-media:hover,
 .about__info:hover,
 .education__wrapper:hover,
-.projects__wrapper:hover,
-.courses__wrapper:hover {
+.courses__wrapper:hover,
+.languages__wrapper:hover,
+.projects__wrapper:hover {
   font-size: var(--hover-size);
   box-shadow: 1px 1px 2px var(--shadow-color);
   border-radius: 5px;
+}
+@media (max-width: 479px) {
+  .target:hover,
+  .data:hover,
+  .skills:hover,
+  .hobbies:hover,
+  .social-media:hover,
+  .about__info:hover,
+  .education__wrapper:hover,
+  .courses__wrapper:hover,
+  .languages__wrapper:hover,
+  .projects__wrapper:hover {
+    font-size: calc(var(--hover-size) - 0.2rem);
+  }
 }
 
 .target__job {
@@ -193,6 +208,7 @@ li {
 .about__info,
 .education__wrapper,
 .courses__wrapper,
+.languages__wrapper,
 .projects__wrapper {
   margin: calc(var(--standard-margin) - 1rem);
   padding: var(--standard-padding);
@@ -206,6 +222,7 @@ li {
   .about__info,
   .education__wrapper,
   .courses__wrapper,
+  .languages__wrapper,
   .projects__wrapper {
     margin: calc(var(--standard-margin) - 1.5rem);
     padding: calc(var(--standard-padding) - 0.1rem);
@@ -220,6 +237,7 @@ li {
   .about__info,
   .education__wrapper,
   .courses__wrapper,
+  .languages__wrapper,
   .projects__wrapper {
     margin: calc(var(--standard-margin) - 2rem);
     padding: calc(var(--standard-padding) - 0.2rem);
@@ -234,6 +252,7 @@ li {
   .about__info,
   .education__wrapper,
   .courses__wrapper,
+  .languages__wrapper,
   .projects__wrapper {
     margin: calc(var(--standard-margin) - 2.7rem);
     padding: calc(var(--standard-padding) - 0.3rem);
@@ -244,6 +263,11 @@ li {
 .data__item {
   margin-top: calc(var(--standard-margin) - 2.5rem);
   overflow-wrap: break-word;
+}
+@media (max-width: 479px) {
+  .data__item {
+    font-size: calc(var(--primary-size) - 1.3rem);
+  }
 }
 
 .data__link {
@@ -351,11 +375,13 @@ li {
   }
 }
 
-.courses__list {
+.courses__list,
+.languages__list {
   margin-left: calc(var(--standard-margin) - 1rem);
 }
 
-.courses__item {
+.courses__item,
+.languages__item {
   list-style-type: disc;
   margin-top: calc(var(--standard-margin) - 2.8rem);
 }
@@ -365,7 +391,7 @@ li {
   margin-top: 10px;
 }
 .projects:hover {
-  font-size: var(--hover-size);
+  /* font-size: calc(var(--hover-size) - 0.2rem); */
   box-shadow: -1px -1px 2px var(--shadow-color);
   border-radius: 5px;
 }
@@ -377,5 +403,3 @@ li {
 .projects__list {
   margin-left: calc(var(--standard-margin) - 1.5rem);
 }
-
-/* !WTF=========================================================================== */
