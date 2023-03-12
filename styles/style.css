@@ -12,7 +12,7 @@
   --secondary-color: #ffffff;
   --text-color: #232323;
   --standard-margin: 3rem;
-  --standard-padding: 0.4rem;
+  --standard-padding: 0.5rem;
   --shadow-color: #444343;
 }
 
@@ -57,6 +57,11 @@ li {
   overflow-wrap: break-word;
   width: 40%;
   color: var(--secondary-color);
+}
+@media (max-width: 479px) {
+  .info {
+    width: 45%;
+  }
 }
 
 .info__wrapper {
@@ -264,11 +269,6 @@ li {
   margin-top: calc(var(--standard-margin) - 2.5rem);
   overflow-wrap: break-word;
 }
-/* @media (max-width: 479px) {
-  .data__item {
-    font-size: calc(var(--primary-size) - 1.3rem);
-  }
-} */
 
 .data__link {
   text-decoration: none;
@@ -294,7 +294,7 @@ li {
 }
 
 .skills__list {
-  margin-left: calc(var(--standard-margin) - 1rem);
+  margin-left: calc(var(--standard-margin) - 2rem);
 }
 
 .skills__item {
@@ -344,6 +344,11 @@ li {
     rgba(215, 215, 215, 1) 95%,
     rgba(2, 0, 36, 0.5914740896358543) 100%
   );
+}
+@media (max-width: 479px) {
+  .about {
+    width: 55%;
+  }
 }
 
 .education {
