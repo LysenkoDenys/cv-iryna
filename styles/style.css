@@ -54,7 +54,8 @@ li {
     rgba(0, 139, 139, 1) 10%
   );
   flex-wrap: wrap;
-  width: 40%;
+  overflow-wrap: break-word;
+  width: 30%;
   color: var(--secondary-color);
 }
 
@@ -109,13 +110,19 @@ li {
   font-size: calc(var(--primary-size) + 0.5rem);
   text-align: center;
 }
+@media (max-width: 479px) {
+  .info__name {
+    font-size: var(--primary-size);
+  }
+}
+
 .info__name-first {
   text-shadow: 1px 5px 2px rgb(0, 0, 0);
 }
 
 .info__name-last {
   text-shadow: 1px 5px 2px rgb(0, 0, 0);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .info__job {
@@ -140,6 +147,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 1.8rem);
     margin-bottom: calc(var(--standard-margin) - 2.2rem);
+    font-size: calc(var(--primary-size) - 0.6rem);
   }
 }
 @media (max-width: 767px) {
@@ -147,6 +155,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 2.2rem);
     margin-bottom: calc(var(--standard-margin) - 2.5rem);
+    font-size: calc(var(--primary-size) - 0.8rem);
   }
 }
 @media (max-width: 479px) {
@@ -154,6 +163,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 2.5rem);
     margin-bottom: calc(var(--standard-margin) - 2.7rem);
+    font-size: calc(var(--primary-size) - 1rem);
   }
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -232,11 +242,7 @@ li {
 
 .data__item {
   margin-top: calc(var(--standard-margin) - 2.5rem);
-}
-@media (max-width: 479px) {
-  .data__item:first-child {
-    font-size: 12px;
-  }
+  overflow-wrap: break-word;
 }
 
 .data__link {
@@ -305,6 +311,7 @@ li {
 /* CHAPTER-2========================================================================== */
 .about {
   flex-wrap: wrap;
+  overflow-wrap: break-word;
   width: 70%;
   background: rgb(215, 215, 215);
   background: linear-gradient(
