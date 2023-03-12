@@ -264,11 +264,11 @@ li {
   margin-top: calc(var(--standard-margin) - 2.5rem);
   overflow-wrap: break-word;
 }
-@media (max-width: 479px) {
+/* @media (max-width: 479px) {
   .data__item {
     font-size: calc(var(--primary-size) - 1.3rem);
   }
-}
+} */
 
 .data__link {
   text-decoration: none;
