@@ -55,7 +55,7 @@ li {
   );
   flex-wrap: wrap;
   overflow-wrap: break-word;
-  width: 30%;
+  width: 40%;
   color: var(--secondary-color);
 }
 
@@ -163,7 +163,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 2.5rem);
     margin-bottom: calc(var(--standard-margin) - 2.7rem);
-    font-size: calc(var(--primary-size) - 1rem);
+    font-size: calc(var(--primary-size) - 1.2rem);
   }
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -237,6 +237,7 @@ li {
   .projects__wrapper {
     margin: calc(var(--standard-margin) - 2.7rem);
     padding: calc(var(--standard-padding) - 0.3rem);
+    font-size: calc(var(--primary-size) - 1.2rem);
   }
 }
 
@@ -312,7 +313,7 @@ li {
 .about {
   flex-wrap: wrap;
   overflow-wrap: break-word;
-  width: 70%;
+  width: 60%;
   background: rgb(215, 215, 215);
   background: linear-gradient(
     90deg,
