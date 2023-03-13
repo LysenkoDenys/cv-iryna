@@ -134,13 +134,16 @@ li {
   color: #d7d7d7;
   text-align: center;
 }
+
+.title {
+  font-weight: 400;
+}
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .title,
 .title--dark {
   margin-bottom: calc(var(--standard-margin) - 2rem);
   text-transform: uppercase;
 
-  border: solid 1px #232323;
   border-radius: 5px;
   padding: 3px 10px;
   display: inline-block;
@@ -353,7 +356,7 @@ li {
 
 .education {
   display: flex;
-  margin-top: calc(var(--standard-margin) - 2rem);
+  margin-top: calc(var(--standard-margin) - 2.5rem);
 }
 
 .education__year {
@@ -381,8 +384,9 @@ li {
 }
 
 .courses__list,
-.languages__list {
-  margin-left: calc(var(--standard-margin) - 1rem);
+.languages__list,
+.projects__list {
+  margin-left: calc(var(--standard-margin) - 2rem);
 }
 
 .courses__item,
@@ -403,8 +407,4 @@ li {
 
 .projects__info {
   margin-top: calc(var(--standard-margin) - 2.5rem);
-}
-
-.projects__list {
-  margin-left: calc(var(--standard-margin) - 1.5rem);
 }
