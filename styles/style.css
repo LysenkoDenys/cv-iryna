@@ -60,7 +60,7 @@ li {
 }
 @media (max-width: 479px) {
   .info {
-    width: 45%;
+    width: 50%;
   }
 }
 
@@ -350,7 +350,7 @@ li {
 }
 @media (max-width: 479px) {
   .about {
-    width: 55%;
+    width: 50%;
   }
 }
 
