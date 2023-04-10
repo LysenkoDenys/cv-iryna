@@ -24,6 +24,11 @@ li {
   background: url("../image/canvas.jpg");
   max-width: 1000px;
   margin: auto auto;
+  /* none touch */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .frame {
@@ -325,7 +330,12 @@ li {
   transition: transform 0.3s ease-in-out;
   box-shadow: 5px 5px 5px var(--shadow-color);
   border-radius: 50%;
-  background-color: #ffffff;
+  background: rgb(247, 243, 243);
+  background: linear-gradient(
+    149deg,
+    rgba(247, 243, 243, 0.9420955882352942) 47%,
+    rgba(2, 0, 36, 0.5914740896358543) 91%
+  );
 }
 .social-media__icon:hover {
   transform: scale(1.1);
