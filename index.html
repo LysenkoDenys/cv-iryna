@@ -11,33 +11,41 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" type="module" defer></script>
   </head>
 
   <body>
     <div class="container">
       <div class="frame">
         <div class="info">
+          <div class="info__lang">
+            <select class="info__lang__select" name="language" id="lang-select">
+              <option value="en" selected>en</option>
+              <option value="cz">cz</option>
+              <option value="ua">ua</option>
+            </select>
+          </div>
           <div class="info__wrapper">
             <img class="info__img" src="./image/photo.png" />
-            <h1 class="info__name"><span class="info__name-first">Denys</span> <span class="info__name-last">Lysenko</span></h1>
-            <div class="info__job">Web Developer</div>
+            <h1 class="info__name"><span class="info__name-first" id='firstName'>Denys</span> <span class="info__name-last" id='lastName'>Lysenko</span></h1>
+            <div class="info__job" id='workAs'>Web Developer</div>
           </div>
 
           <div class="target">
-            <h2 class="title">Target</h2>
-            <div class="target__job">
+            <h2 class="title" id="title01">Target</h2>
+            <div class="target__job" id="target">
               I strive to be part of a friendly and professional team where I
               could develop my skills to achieve team results.
             </div>
           </div>
 
           <div class="data">
-            <h2 class="title">Contacts</h2>
+            <h2 class="title" id="title02">Contacts</h2>
 
             <ul class="data__list">
-              <li class="data__item">
+              <li class="data__item" >
                 <img class="data__icon" src="./image/loc.png" alt="location" />
-                Most, Czech Republic, 43401
+                <span id="address">Most, Czech Republic, 43401</span>
               </li>
               <li class="data__item">
                 <img class="data__icon" src="./image/mail.png" alt="e-mail" />
@@ -46,19 +54,19 @@
                   href="mailto:lysenkoden@gmail.com"
                   target="_blank"
                 >
-                  lysenkoden@gmail.com
+                  <span>lysenkoden@gmail.com</span>
                 </a>
               </li>
               <p class="data__item">
                 <img class="data__icon" src="./image/tel.png" alt="phone" />
                 <span class="data__item__phone">+420 720 669 115;</span> <br>
-                <span class="data__item__phone">+380 506 045 095 (messengers)</span>
+                <span class="data__item__phone" id="phone">+380 506 045 095 (messengers)</span>
               </li>
             </ul>
           </div>
 
           <div class="skills">
-            <h2 class="title">Skills</h2>
+            <h2 class="title" id="title03">Skills</h2>
 
             <ul class="skills__list">
               <li class="skills__item">HTML/CSS</li>
@@ -81,7 +89,7 @@
           </div> -->
 
           <div class="social-media">
-            <h2 class="title">Social Media</h2>
+            <h2 class="title" id="title04">Social Media</h2>
 
             <div class="social-media__list">
               <a
@@ -126,9 +134,9 @@
         <!-- =============================================================== -->
         <div class="about">
           <div class="about__info">
-            <h2 class="title--dark">About</h2>
+            <h2 class="title--dark" id="title05">About</h2>
 
-            <p class="about__item">
+            <p class="about__item" id="about">
               I'm an enthusiastic and detail-oriented Frontend Web Developer
               (Junior) seeking an entry-level position with Company to use my
               skills in coding, troubleshooting complex problems, and assisting
@@ -137,13 +145,13 @@
           </div>
 
           <div class="education__wrapper">
-            <h2 class="title--dark">Education</h2>
+            <h2 class="title--dark" id="title06">Education</h2>
 
             <div class="education">
               <div class="education__year">[1997-2002]</div>
 
               <div class="education__info-wrapper">
-                <li class="education__info">
+                <li class="education__info" id="education01">
                   NMetAU (National Metallurgical Academy of Ukraine):
                   metallurgical engineer;
                 </li>
@@ -154,8 +162,8 @@
               <div class="education__year">[2001-2003]</div>
 
               <div class="education__info-wrapper">
-                <li class="education__info">
-                  NMetAU (National Metallurgical Academy of Ukraine): economist.
+                <li class="education__info" id="education02">
+                  NMetAU (National Metallurgical Academy of Ukraine): economist;
                 </li>
               </div>
             </div>
@@ -164,7 +172,7 @@
               <div class="education__year">[2022-Present]</div>
 
               <div class="education__info-wrapper">
-                <li class="education__info">
+                <li class="education__info" id="education03">
                   Self-education on web technologies.
                   <br />
                 </li>
@@ -173,36 +181,42 @@
           </div>
 
           <div class="courses__wrapper">
-            <h2 class="title--dark">Courses</h2>
+            <h2 class="title--dark" id="title07">Courses</h2>
 
             <ul class="courses__list">
-              <li class="courses__item">
-                time management, mentoring and coaching (CG "Allo");
+              <li class="courses__item" id="course01">
+                Time management, mentoring and coaching (CG "Allo");
               </li>
-              <li class="courses__item">
-                solutions and prospects «emotional leadership» («BTG»);
+              <li class="courses__item" id="course02">
+                Solutions and prospects «emotional leadership» («BTG»);
               </li>
-              <li class="courses__item">
-                analytics in logistics («Analitic Butique»).
+              <li class="courses__item" id="course03">
+                Financial accounting 1 (IFRS) («Elcon»);
+              </li>
+              <li class="courses__item" id="course04">
+                Analytics in logistics («Analitic Butique»).
               </li>
             </ul>
           </div>
 
           <div class="languages__wrapper">
-            <h2 class="title--dark">Languages</h2>
+            <h2 class="title--dark" id="title08">Languages</h2>
 
             <ul class="languages__list">
-              <li class="languages__item">
+              <li class="languages__item" id="lang01">
                 ukrainian (native);
               </li>
-              <li class="languages__item">
+              <li class="languages__item" id="lang02">
                 english (B2);
+              </li>
+              <li class="languages__item" id="lang03">
+                czech (A1).
               </li>
             </ul>
           </div>
 
           <div class="projects__wrapper">
-            <h2 class="title--dark">Projects</h2>
+            <h2 class="title--dark" id="title09">Projects</h2>
 
             <div class="projects">
               <div class="projects__name">
@@ -214,7 +228,7 @@
                 >):
               </div>
               <div class="projects__info">
-                <p>
+                <p id="project01">
                   [The application helps to buy, sell or rent estate.]
                 </p>
                 <p>Role: frontend+backend</p>
@@ -232,7 +246,7 @@
                   >):
                 </div>
                 <div class="projects__info">
-                  <p>
+                  <p id="project02">
                     [The application helps to select exercises to work out with any muscles with
                     examples and video.]
                   </p>
@@ -251,9 +265,9 @@
                   >):
                 </div>
                 <div class="projects__info">
-                  <p>
+                  <p id="project03">
                     [The application helps to manage books:
-                    add books manually, random from local file.JSON, and random with API
+                    add books manually, random from local file.JSON, and random with API,
                     make books favorite
                     filter them by name, author and favorites,
                     delete.]
@@ -262,11 +276,9 @@
                   <p>Stack: react.js, redux, express.</p>
                 </div>
               </div>
-            
           </div>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
