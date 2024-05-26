@@ -93,6 +93,10 @@ li {
   cursor: pointer;
 }
 
+.info__lang__select__option {
+  background-color: rgba(0, 139, 139, 1);
+}
+
 .info__wrapper {
   margin: var(--standard-margin);
 }
