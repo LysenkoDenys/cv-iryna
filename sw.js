@@ -7,7 +7,9 @@ const urlsToCache = [
   '/site.webmanifest',
   '/favicon-32x32.png',
   '/favicon-16x16.png',
-  // Add other essential files
+  '/script.js',
+  '/data.js',
+  '/styles/style.css',
 ];
 
 self.addEventListener('install', (event) => {
