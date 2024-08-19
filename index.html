@@ -5,10 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>CV</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="./styles/style.css" rel="stylesheet" type="text/css" />
     <script src="script.js" type="module" defer></script>
@@ -20,15 +20,20 @@
         <div class="info">
           <div class="info__lang">
             <select class="info__lang__select" name="language" id="lang-select">
-              <option class="info__lang__select__option" value="en" selected>en</option>
+              <option class="info__lang__select__option" value="en" selected>
+                en
+              </option>
               <option class="info__lang__select__option" value="cz">cz</option>
               <option class="info__lang__select__option" value="ua">ua</option>
             </select>
           </div>
           <div class="info__wrapper">
-            <img class="info__img" src="./image/photo.png" />
-            <h1 class="info__name"><span class="info__name-first" id='firstName'>Denys</span> <span class="info__name-last" id='lastName'>Lysenko</span></h1>
-            <div class="info__job" id='workAs'>Web Developer</div>
+            <img class="info__img" src="./image/photo.png" alt="Denys" />
+            <h1 class="info__name">
+              <span class="info__name-first" id="firstName">Denys</span>
+              <span class="info__name-last" id="lastName">Lysenko</span>
+            </h1>
+            <div class="info__job" id="workAs">Web Developer</div>
           </div>
 
           <div class="target">
@@ -43,7 +48,7 @@
             <h2 class="title" id="title02">Contacts</h2>
 
             <ul class="data__list">
-              <li class="data__item" >
+              <li class="data__item">
                 <img class="data__icon" src="./image/loc.png" alt="location" />
                 <span id="address">Most, Czech Republic, 43401</span>
               </li>
@@ -57,10 +62,12 @@
                   <span>lysenkoden@gmail.com</span>
                 </a>
               </li>
-              <p class="data__item">
+              <li class="data__item">
                 <img class="data__icon" src="./image/tel.png" alt="phone" />
-                <span class="data__item__phone">+420 720 669 115;</span> <br>
-                <span class="data__item__phone" id="phone">+380 506 045 095 (messengers)</span>
+                <span class="data__item__phone">+420 720 669 115;</span> <br />
+                <span class="data__item__phone" id="phone"
+                  >+380 506 045 095 (messengers)</span
+                >
               </li>
             </ul>
           </div>
@@ -129,16 +136,16 @@
                 />
               </a>
               <a
-              class="social-media__link"
-              href="https://www.sololearn.com/en/profile/27626456"
-              target="_blank"
-            >
-              <img
-                class="social-media__icon"
-                src="./image/sl.png"
-                alt="sololearn"
-              />
-            </a>
+                class="social-media__link"
+                href="https://www.sololearn.com/en/profile/27626456"
+                target="_blank"
+              >
+                <img
+                  class="social-media__icon"
+                  src="./image/sl.png"
+                  alt="sololearn"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -214,15 +221,9 @@
             <h2 class="title--dark" id="title08">Languages</h2>
 
             <ul class="languages__list">
-              <li class="languages__item" id="lang01">
-                ukrainian (native);
-              </li>
-              <li class="languages__item" id="lang02">
-                english (B2);
-              </li>
-              <li class="languages__item" id="lang03">
-                czech (A1).
-              </li>
+              <li class="languages__item" id="lang01">ukrainian (native);</li>
+              <li class="languages__item" id="lang02">english (B2);</li>
+              <li class="languages__item" id="lang03">czech (A1).</li>
             </ul>
           </div>
 
@@ -231,7 +232,7 @@
 
             <div class="projects">
               <div class="projects__name">
-               1. <strong>Realtor</strong> (<a
+                1. <strong>Realtor</strong> (<a
                   class="projects__link"
                   href="https://realtor-lime.vercel.app"
                   target="_blank"
@@ -243,50 +244,54 @@
                   [The application helps to buy, sell or rent estate.]
                 </p>
                 <p>Role: frontend+backend</p>
-                <p>Stack: react.js, firebase, tailwindcss, toastify, moment, swiper.js.</p>
+                <p>
+                  Stack: react.js, firebase, tailwindcss, toastify, moment,
+                  swiper.js.
+                </p>
               </div>
             </div>
 
-              <div class="projects">
-                <div class="projects__name">
-                  2. <strong>Gym</strong> (<a
-                    class="projects__link"
-                    href="https://gym-js-react.netlify.app/"
-                    target="_blank"
-                    >gym-js-react.netlify.app</a
-                  >):
-                </div>
-                <div class="projects__info">
-                  <p id="project02">
-                    [The application helps to select exercises to work out with any muscles with
-                    examples and video.]
-                  </p>
-                  <p>Role: frontend+backend</p>
-                  <p>Stack: react.js, RapidAPI:ExerciseDB, YouTube Search, pagination, material UI.</p>
-                </div>
+            <div class="projects">
+              <div class="projects__name">
+                2. <strong>Gym</strong> (<a
+                  class="projects__link"
+                  href="https://gym-js-react.netlify.app/"
+                  target="_blank"
+                  >gym-js-react.netlify.app</a
+                >):
               </div>
+              <div class="projects__info">
+                <p id="project02">
+                  [The application helps to select exercises to work out with
+                  any muscles with examples and video.]
+                </p>
+                <p>Role: frontend+backend</p>
+                <p>
+                  Stack: react.js, RapidAPI:ExerciseDB, YouTube Search,
+                  pagination, material UI.
+                </p>
+              </div>
+            </div>
 
-              <div class="projects">
-                <div class="projects__name">
-                  3. <strong>Library</strong> (<a
-                    class="projects__link"
-                    href="https://book-lybrary-frontend.vercel.app/"
-                    target="_blank"
-                    >book-lybrary-frontend.vercel.app</a
-                  >):
-                </div>
-                <div class="projects__info">
-                  <p id="project03">
-                    [The application helps to manage books:
-                    add books manually, random from local file.JSON, and random with API,
-                    make books favorite
-                    filter them by name, author and favorites,
-                    delete.]
-                  </p>
-                  <p>Role: frontend+backend</p>
-                  <p>Stack: react.js, redux, express.</p>
-                </div>
+            <div class="projects">
+              <div class="projects__name">
+                3. <strong>Library</strong> (<a
+                  class="projects__link"
+                  href="https://book-lybrary-frontend.vercel.app/"
+                  target="_blank"
+                  >book-lybrary-frontend.vercel.app</a
+                >):
               </div>
+              <div class="projects__info">
+                <p id="project03">
+                  [The application helps to manage books: add books manually,
+                  random from local file.JSON, and random with API, make books
+                  favorite filter them by name, author and favorites, delete.]
+                </p>
+                <p>Role: frontend+backend</p>
+                <p>Stack: react.js, redux, express.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
