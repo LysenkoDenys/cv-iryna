@@ -12,6 +12,7 @@
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="canonical" href="https://cv-lysenko.vercel.app" />
     <script src="script.js" type="module" defer></script>
   </head>
 
@@ -20,7 +21,12 @@
       <div class="frame">
         <div class="info">
           <div class="info__lang">
-            <select class="info__lang__select" name="language" id="lang-select">
+            <select
+              class="info__lang__select"
+              name="language"
+              id="lang-select"
+              aria-label="Languages"
+            >
               <option class="info__lang__select__option" value="en" selected>
                 en
               </option>
@@ -170,10 +176,10 @@
               <div class="education__year">[1997-2002]</div>
 
               <div class="education__info-wrapper">
-                <li class="education__info" id="education01">
+                <p class="education__info" id="education01">
                   NMetAU (National Metallurgical Academy of Ukraine):
                   metallurgical engineer;
-                </li>
+                </p>
               </div>
             </div>
 
@@ -181,9 +187,9 @@
               <div class="education__year">[2001-2003]</div>
 
               <div class="education__info-wrapper">
-                <li class="education__info" id="education02">
+                <p class="education__info" id="education02">
                   NMetAU (National Metallurgical Academy of Ukraine): economist;
-                </li>
+                </p>
               </div>
             </div>
 
@@ -191,10 +197,10 @@
               <div class="education__year">[2022-Present]</div>
 
               <div class="education__info-wrapper">
-                <li class="education__info" id="education03">
+                <p class="education__info" id="education03">
                   Self-education on web technologies.
                   <br />
-                </li>
+                </p>
               </div>
             </div>
           </div>
