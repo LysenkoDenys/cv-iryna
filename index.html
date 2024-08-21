@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Resume about Lysenko Denys" />
     <title>CV</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -56,26 +56,52 @@
 
             <ul class="data__list">
               <li class="data__item">
-                <img class="data__icon" src="./image/loc.png" alt="location" />
+                <img
+                  class="data__icon"
+                  src="./image/loc.png"
+                  alt="location"
+                  title="location"
+                />
                 <span id="address">Most, Czech Republic, 43401</span>
               </li>
               <li class="data__item">
-                <img class="data__icon" src="./image/mail.png" alt="e-mail" />
+                <img
+                  class="data__icon"
+                  src="./image/mail.png"
+                  alt="e-mail"
+                  title="email"
+                />
                 <a
                   class="data__link"
                   href="mailto:lysenkoden@gmail.com"
                   target="_blank"
+                  title="email"
                 >
                   <span>lysenkoden@gmail.com</span>
                 </a>
               </li>
               <li class="data__item">
-                <img class="data__icon" src="./image/tel.png" alt="phone" />
+                <img
+                  class="data__icon"
+                  src="./image/tel.png"
+                  alt="phone"
+                  title="phone"
+                />
                 <span class="data__item__phone">+420 720 669 115;</span> <br />
                 <span class="data__item__phone" id="phone"
                   >+380 506 045 095 (messengers)</span
                 >
               </li>
+              <!-- sprite -->
+              <li class="data__item2">
+                <div class="icon__phone__sprite" aria-hidden="true">&nbsp;</div>
+                <span class="data__item__phone">+420 720 669 115;</span>
+                <br />
+                <span class="data__item__phone" id="phone"
+                  >+380 506 045 095 (messengers)</span
+                >
+              </li>
+              <!-- sprite -->
             </ul>
           </div>
 
@@ -94,14 +120,6 @@
             </ul>
           </div>
 
-          <!-- <div class="hobbies">
-            <h2 class="title">Hobbies</h2>
-
-            <ul class="hobbies__list">
-              <li class="hobbies__item">Healthy Lifestyle, jogging</li>
-            </ul>
-          </div> -->
-
           <div class="social-media">
             <h2 class="title" id="title04">Social Media</h2>
 
@@ -111,14 +129,24 @@
                 href="https://linkedin.com/in/lysenko-denys"
                 target="_blank"
               >
-                <img class="social-media__icon" src="./image/in.png" alt="in" />
+                <img
+                  class="social-media__icon"
+                  src="./image/in.png"
+                  alt="in"
+                  title="linkedin"
+                />
               </a>
               <a
                 class="social-media__link"
                 href="https://www.facebook.com/profile.php?id=100001281440746"
                 target="_blank"
               >
-                <img class="social-media__icon" src="./image/fb.png" alt="fb" />
+                <img
+                  class="social-media__icon"
+                  src="./image/fb.png"
+                  alt="fb"
+                  title="facebook"
+                />
               </a>
               <a
                 class="social-media__link"
@@ -129,6 +157,7 @@
                   class="social-media__icon"
                   src="./image/git.png"
                   alt="git"
+                  title="github"
                 />
               </a>
               <a
@@ -140,6 +169,7 @@
                   class="social-media__icon"
                   src="./image/cw.png"
                   alt="codewars"
+                  title="codewars"
                 />
               </a>
               <a
@@ -151,6 +181,7 @@
                   class="social-media__icon"
                   src="./image/sl.png"
                   alt="sololearn"
+                  title="sololearn"
                 />
               </a>
             </div>
@@ -303,7 +334,7 @@
         </div>
       </div>
     </div>
-    <script>
+    <!-- <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker
@@ -316,6 +347,6 @@
             });
         });
       }
-    </script>
+    </script> -->
   </body>
 </html>

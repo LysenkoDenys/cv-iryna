@@ -16,12 +16,15 @@
   --shadow-color: #444343;
 }
 
+body {
+  background: url('../image/canvas.jpg');
+}
+
 li {
   list-style-type: none;
 }
 
 .container {
-  background: url('../image/canvas.jpg');
   max-width: 1000px;
   margin: auto auto;
   /* none touch */
@@ -445,4 +448,34 @@ li {
 
 .projects__info {
   margin-top: calc(var(--standard-margin) - 2.5rem);
+}
+
+//====================================sprites=====
+.icon__sprite {
+  display: inline-block;
+  width: 164px;
+  height: 526px;
+  background-image: url('../image/c-icons.avif');
+  background-repeat: no-repeat;
+  background-position: 0% 33%;
+  background-size: 164px 526px;
+}
+
+.icon__phone__sprite {
+  display: inline-block;
+
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 2px var(--shadow-color);
+
+  width: 20px;
+  height: 20px;
+  background-image: url('../image/c-icons.avif');
+  background-size: 100%;
+  background-position: 0% -1%;
+  border-radius: 50%;
+}
+
+.icon__phone__sprite:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 3px var(--shadow-color);
 }
