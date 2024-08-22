@@ -450,7 +450,7 @@ li {
   margin-top: calc(var(--standard-margin) - 2.5rem);
 }
 
-.icon__phone__sprite {
+.sprite {
   display: inline-block;
   transition: transform 0.3s ease-in-out;
   box-shadow: 2px 2px 2px var(--shadow-color);
@@ -463,7 +463,19 @@ li {
   background-color: var(--secondary-color);
 }
 
-.icon__phone__sprite:hover {
+.sprite:hover {
   transform: scale(1.1);
   box-shadow: 3px 3px 3px var(--shadow-color);
+}
+
+.location {
+  background-position: 3.5% 96%;
+}
+
+.mail {
+  background-position: 96% 95%;
+}
+
+.phone {
+  background-position: 50% 95%;
 }
