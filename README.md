@@ -15,5 +15,4 @@
 <ul>
 <li>animation: block from left and block from right</li>
 <li>photo (updated) from above</li>
-<li>social media icons from sprite</li>
 </ul>
