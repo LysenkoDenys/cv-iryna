@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('../image/canvas.jpg');
+  background: url('../image/canvas.avif');
   margin: 0;
 }
 
@@ -64,7 +64,7 @@ li {
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 0.8267682072829132) 0%,
-    rgba(0, 139, 139, 1) 10%
+    rgba(0, 139, 139, 1) 8%
   );
   flex-wrap: wrap;
   overflow-wrap: break-word;
@@ -131,7 +131,8 @@ li {
   margin: 10px auto;
   transition: transform 0.3s ease-in-out;
   box-shadow: 5px 5px 5px var(--shadow-color);
-  max-width: 100%;
+  height: auto;
+  width: 70%;
 }
 @media (max-width: 992px) {
   .info__img {
@@ -196,7 +197,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 1.8rem);
     margin-bottom: calc(var(--standard-margin) - 2.2rem);
-    font-size: calc(var(--primary-size) - 0.6rem);
+    /* font-size: calc(var(--primary-size) - 0.6rem); */
   }
 }
 @media (max-width: 767px) {
@@ -204,7 +205,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 2.2rem);
     margin-bottom: calc(var(--standard-margin) - 2.5rem);
-    font-size: calc(var(--primary-size) - 0.8rem);
+    /* font-size: calc(var(--primary-size) - 0.8rem); */
   }
 }
 @media (max-width: 479px) {
@@ -212,7 +213,7 @@ li {
   .title--dark {
     margin-top: calc(var(--standard-margin) - 2.5rem);
     margin-bottom: calc(var(--standard-margin) - 2.7rem);
-    font-size: calc(var(--primary-size) - 1.2rem);
+    /* font-size: calc(var(--primary-size) - 1.2rem); */
   }
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -305,7 +306,7 @@ li {
   .projects__wrapper {
     margin: calc(var(--standard-margin) - 2.7rem);
     padding: calc(var(--standard-padding) - 0.3rem);
-    font-size: calc(var(--primary-size) - 1.2rem);
+    /* font-size: calc(var(--primary-size) - 1.2rem); */
   }
 }
 
@@ -323,9 +324,9 @@ li {
 
 .email-wrap {
   display: inline-block;
-  word-wrap: break-word; /* Wrap long words */
-  word-break: break-all; /* Break word if necessary */
-  overflow-wrap: break-word; /* Ensure word-break in all browsers */
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 767px) {
@@ -375,11 +376,6 @@ li {
 .data__link {
   text-decoration: none;
   color: var(--secondary-color);
-}
-
-.data__item__phone:last-child {
-  display: block;
-  margin-left: 26px;
 }
 
 .skills__list {
@@ -505,7 +501,6 @@ li {
   margin-top: 10px;
 }
 .projects:hover {
-  /* font-size: calc(var(--hover-size) - 0.2rem); */
   box-shadow: -1px -1px 2px var(--shadow-color);
   border-radius: 5px;
 }
