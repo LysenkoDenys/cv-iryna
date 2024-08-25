@@ -12,7 +12,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="./styles/style.css" rel="stylesheet" type="text/css" />
     <link rel="canonical" href="https://cv-lysenko.vercel.app" />
-    <script src="script.js" defer></script>
+    <script src="script.js" type="module" defer></script>
+    <script src="./node_modules/animejs/lib/anime.min.js" defer></script>
   </head>
 
   <body>
@@ -324,7 +325,7 @@
         </div>
       </div>
     </div>
-    <script>
+    <!-- <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker
@@ -337,6 +338,6 @@
             });
         });
       }
-    </script>
+    </script> -->
   </body>
 </html>

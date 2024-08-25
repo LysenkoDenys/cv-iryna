@@ -1,7 +1,7 @@
 import languageContent from './data.js';
+import anime from './node_modules/animejs/lib/anime.es.js';
 
 const select = document.querySelector('select');
-const title01 = document.getElementById('title01');
 
 select.addEventListener('change', () => changeLanguage(select.value));
 
@@ -10,3 +10,24 @@ function changeLanguage(lang) {
     document.getElementById(key).innerHTML = languageContent[lang][key];
   }
 }
+
+//animation:
+function getBlockAnimation(dur) {
+  return (
+    anime({
+      targets: '.info',
+      translateX: [
+        { value: '-200%', duration: 0 },
+        { value: '0%', duration: dur },
+      ],
+    }),
+    anime({
+      targets: '.about',
+      translateX: [
+        { value: '200%', duration: 0 },
+        { value: '0%', duration: dur },
+      ],
+    })
+  );
+}
+getBlockAnimation(1000);

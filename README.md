@@ -13,6 +13,6 @@
 
 <p>something to improve:</p>
 <ul>
-<li>animation: block from left and block from right</li>
-<li>photo (updated) from above</li>
+<li>photo update</li>
+<li>SOCIAL MEDIA</li>
 </ul>

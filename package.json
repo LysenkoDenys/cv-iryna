@@ -1,0 +1,23 @@
+{
+  "name": "CV",
+  "version": "1.0.0",
+  "description": "my cv",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LysenkoDenys/CV.git"
+  },
+  "author": "Lysenko Denys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LysenkoDenys/CV/issues"
+  },
+  "homepage": "https://github.com/LysenkoDenys/CV#readme",
+  "dependencies": {
+    "animejs": "^3.2.2"
+  }
+}
