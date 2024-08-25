@@ -1,5 +1,4 @@
 import languageContent from './data.js';
-import anime from './node_modules/animejs/lib/anime.es.js';
 
 const select = document.querySelector('select');
 
