@@ -157,11 +157,11 @@ li {
 .info__name {
   font-size: calc(var(--primary-size) + 0.5rem);
   text-align: center;
+  margin: 5px calc(var(--standard-margin) - 2.5rem);
 }
 @media (max-width: 479px) {
   .info__name {
     font-size: var(--primary-size);
-    margin: 3px 0;
   }
 }
 
