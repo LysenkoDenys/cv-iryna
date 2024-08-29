@@ -248,6 +248,7 @@ li {
 
 .target__job {
   margin-top: calc(var(--standard-margin) - 2rem);
+  margin-left: calc(var(--standard-margin) - 2rem);
 }
 
 .data,
@@ -312,13 +313,14 @@ li {
 
 .data__item {
   margin-top: calc(var(--standard-margin) - 2.5rem);
+  margin-left: calc(var(--standard-margin) - 2rem);
   overflow-wrap: break-word;
   display: flex;
   align-items: center;
   overflow: hidden;
   text-overflow: hidden;
   white-space: normal;
-  gap: 10px;
+  gap: 2px;
   max-width: 100%;
 }
 
@@ -385,6 +387,7 @@ li {
 .skills__item {
   list-style-type: disc;
   margin-top: calc(var(--standard-margin) - 2.8rem);
+  margin-left: calc(var(--standard-margin) - 2rem);
 }
 
 .hobbies__item {

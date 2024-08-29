@@ -16,9 +16,8 @@ const languageContent = {
       'I`m an enthusiastic and detail-oriented Frontend Web Developer (Junior) seeking an entry-level position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects',
     title06: 'Education',
     education01:
-      'NMetAU (National Metallurgical Academy of Ukraine): metallurgical engineer',
-    education02:
-      'NMetAU (National Metallurgical Academy of Ukraine): economist',
+      'National Metallurgical Academy of Ukraine - metallurgical engineer',
+    education02: 'National Metallurgical Academy of Ukraine - economist',
     education03: 'Self-education on web technologies',
     title07: 'Courses',
     course01: 'time management, mentoring and coaching (CG "Allo")',
@@ -53,8 +52,8 @@ const languageContent = {
       'Jsem nadšený frontendový webový vývojář orientovaný na detaily (Junior) hledá pozici na základní úrovni u společnosti, abych mohl používat můj dovednosti v kódování, řešení složitých problémů a asistování ve včasném dokončení projektů',
     title06: 'Vzdělání',
     education01:
-      'NMetAU (Národní metalurgická akademie Ukrajiny) - metalurgický inženýr',
-    education02: 'NMetAU (Národní metalurgická akademie Ukrajiny) - ekonom',
+      'Národní metalurgická akademie Ukrajiny - metalurgický inženýr',
+    education02: 'Národní metalurgická akademie Ukrajiny - ekonom',
     education03: 'Sebevzdělávání na webových technologiích',
     title07: 'Kurzy',
     course01: 'Time management, mentoring a koučování (GC «ALLO»)',
@@ -88,10 +87,8 @@ const languageContent = {
     about:
       'Я завзятий і орієнтований на деталі веб-розробник, шукаю посаду початкового рівня, щоб використовувати мої навички кодування, усунення складних проблем і надання допомоги у своєчасному завершенні проектів для отримання прибутків компанії',
     title06: 'Освіта',
-    education01:
-      'НМетАУ (Національна Металургійна Академія України) - інженер-металург',
-    education02:
-      'НМетАУ (Національна Металургійна Академія України) - економіст',
+    education01: 'Національна Металургійна Академія України - інженер-металург',
+    education02: 'Національна Металургійна Академія України - економіст',
     education03: 'самонавчання веб-девелопер',
     title07: 'Курси',
     course01: 'тайм-менеджмент, наставництво і коучінг (ГК "АЛЛО")',
