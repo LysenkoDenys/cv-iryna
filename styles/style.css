@@ -160,6 +160,7 @@ li {
 @media (max-width: 479px) {
   .info__name {
     font-size: var(--primary-size);
+    margin: 3px 0;
   }
 }
 
