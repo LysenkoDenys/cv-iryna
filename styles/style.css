@@ -228,23 +228,8 @@ li {
 .courses__wrapper:hover,
 .languages__wrapper:hover,
 .projects__wrapper:hover {
-  font-size: var(--hover-size);
   box-shadow: 1px 1px 2px var(--shadow-color);
   border-radius: 5px;
-}
-@media (max-width: 479px) {
-  .target:hover,
-  .data:hover,
-  .skills:hover,
-  .hobbies:hover,
-  .social-media:hover,
-  .about__info:hover,
-  .education__wrapper:hover,
-  .courses__wrapper:hover,
-  .languages__wrapper:hover,
-  .projects__wrapper:hover {
-    font-size: calc(var(--hover-size) - 0.2rem);
-  }
 }
 
 .target__job {
