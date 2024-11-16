@@ -526,3 +526,68 @@ li {
   background-color: var(--primary-hover-color);
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
 }
+
+@media print {
+  /* Remove unnecessary elements */
+  body {
+    background: none; /* Remove background image */
+    color: #000; /* Ensure text is dark for printing */
+    -webkit-print-color-adjust: exact; /* Ensures backgrounds are printed */
+  }
+
+  .container {
+    max-width: 100%; /* Use full width for printing */
+    margin: 0;
+    padding: 0;
+  }
+
+  .info,
+  .about {
+    width: 100%; /* Expand sections to fill page width */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Adjust font sizes for compactness */
+  .info__name,
+  .info__job,
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .data__item,
+  .skills__item,
+  .hobbies__item,
+  .courses__item,
+  .languages__item,
+  .projects__info {
+    font-size: 0.9rem; /* Make text smaller for printing */
+    margin: 0;
+  }
+
+  /* Hide interactive elements */
+  .info__lang,
+  .projects__more {
+    display: none;
+  }
+
+  /* Manage margins and spacing */
+  * {
+    margin: 0;
+    padding: 0;
+    box-shadow: none; /* Remove shadows for cleaner print */
+  }
+
+  /* Adjust page-breaking */
+  .section {
+    page-break-inside: avoid; /* Prevent breaking content in awkward places */
+  }
+
+  /* Ensure everything fits within a single page */
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    font-size: 14px; /* Reduce global font size for compactness */
+  }
+}
