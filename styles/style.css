@@ -154,6 +154,11 @@ li {
   transform: scale(1.05);
 }
 
+.name__link {
+  text-decoration: none;
+  color: white;
+}
+
 .info__name {
   font-size: calc(var(--primary-size) + 0.5rem);
   text-align: center;
@@ -496,4 +501,28 @@ li {
 
 .projects__info {
   margin-top: calc(var(--standard-margin) - 2.5rem);
+}
+
+.projects__more {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.projects__more a {
+  display: inline-block;
+  padding: 2px 10px;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.projects__more a:hover {
+  background-color: var(--primary-hover-color);
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
 }

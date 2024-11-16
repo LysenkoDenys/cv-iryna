@@ -38,16 +38,29 @@
             </select>
           </div>
           <div class="info__wrapper">
-            <img
-              class="info__img"
-              src="./image/photo.png"
-              alt="photo of Denys"
-              height="200"
-              width="200"
-            />
+            <a
+              href="https://linkedin.com/in/lysenko-denys"
+              target="_blank"
+              aria-label="link to the linkedin profile"
+            >
+              <img
+                class="info__img"
+                src="./image/photo.png"
+                alt="photo of Denys"
+                height="200"
+                width="200"
+              />
+            </a>
             <h1 class="info__name">
-              <span class="info__name-first" id="firstName">Denys</span>
-              <span class="info__name-last" id="lastName">Lysenko</span>
+              <a
+                class="name__link"
+                href="https://linkedin.com/in/lysenko-denys"
+                target="_blank"
+                aria-label="link to the linkedin profile"
+              >
+                <span class="info__name-first" id="firstName">Denys</span>
+                <span class="info__name-last" id="lastName">Lysenko</span>
+              </a>
             </h1>
             <div class="info__job" id="workAs">Web Developer</div>
           </div>
@@ -65,15 +78,33 @@
 
             <ul class="data__list">
               <li class="data__item">
-                <div
-                  class="sprite location"
-                  aria-hidden="true"
+                <a
+                  class="data__link"
+                  href="https://www.google.com/maps/place/%D0%9C%D0%BE%D1%81%D1%82/@50.5143769,13.4342281,11z/data=!3m1!4b1!4m6!3m5!1s0x470a1f9bdefaee05:0x400af0f66157c50!8m2!3d50.5015549!4d13.6329122!16zL20vMDNoeTlw?authuser=0&entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
                   title="location"
-                ></div>
+                >
+                  <div
+                    class="sprite location"
+                    aria-hidden="true"
+                    title="location"
+                  ></div>
+                </a>
                 <span id="address">Most, Czech Republic, 43401</span>
               </li>
               <li class="data__item">
-                <div class="sprite mail" aria-hidden="true" title="email"></div>
+                <a
+                  class="data__link"
+                  href="mailto:lysenkoden@gmail.com"
+                  target="_blank"
+                  title="email"
+                >
+                  <div
+                    class="sprite mail"
+                    aria-hidden="true"
+                    title="email"
+                  ></div>
+                </a>
                 <a
                   class="data__link"
                   href="mailto:lysenkoden@gmail.com"
@@ -109,7 +140,7 @@
               <li class="skills__item">NodeJS (Express)</li>
               <li class="skills__item">React JS/Redux (RTK)</li>
               <li class="skills__item">Jest/React Testing Library</li>
-              <li class="skills__item">Databases (PostgreSQL)</li>
+              <li class="skills__item">Db (PostgreSQL/MongoDB)</li>
               <li class="skills__item">Git</li>
               <li class="skills__item">Chrome DevTools</li>
             </ul>
@@ -300,10 +331,10 @@
               <div class="projects__info">
                 <p id="project02">
                   [The application is dedicated to lead your blog: CRUD
-                  posts/users/comments, admin dashboard]
+                  posts/users/comments, use admin dashboard]
                 </p>
                 <p>Role: frontend+backend</p>
-                <p>Stack: MongoDB, express.js, react.js, node.js</p>
+                <p>Stack: MERN, redux, flowbite, firebase</p>
               </div>
             </div>
 
@@ -324,6 +355,11 @@
                 <p>Role: frontend+backend</p>
                 <p>Stack: react.js, redux, express</p>
               </div>
+            </div>
+            <div class="projects__more">
+              <a href="https://github.com/LysenkoDenys" target="_blank"
+                >More projects</a
+              >
             </div>
           </div>
         </div>
