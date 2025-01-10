@@ -65,7 +65,7 @@ li {
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 0.8267682072829132) 0%,
-    rgba(0, 139, 139, 1) 8%
+    rgb(117, 144, 241) 8%
   );
   flex-wrap: wrap;
   overflow-wrap: break-word;
@@ -419,8 +419,8 @@ li {
   background-position: 3.5% 5.5%;
 }
 
-.github {
-  background-position: 96.2% 5.8%;
+.instagram {
+  background-position: 96% 5.5%;
 }
 
 .codewars {
