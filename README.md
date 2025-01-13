@@ -1,6 +1,6 @@
 # This is my CV
 
-### Deployed here: https://cv-lysenko.vercel.app
+### Deployed here: cv-iryna.vercel.app
 
 <p>Sample:</p>
 
