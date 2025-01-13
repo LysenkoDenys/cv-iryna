@@ -1,6 +1,8 @@
 # This is my CV
 
-### Deployed here: cv-iryna.vercel.app
+### Deployed here:
+
+<a href='cv-iryna.vercel.app'>cv-iryna.vercel.app</a>
 
 <p>Sample:</p>
 
