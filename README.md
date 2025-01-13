@@ -4,7 +4,7 @@
 
 <p>Sample:</p>
 
-![586](https://github.com/user-attachments/assets/515d1522-3d6e-49cd-8d04-58bffc74d882)
+![cv](https://github.com/user-attachments/assets/6e65de47-7e18-4b3f-be90-a83fb4579161)
 
 <p>This JS project uses next plug-ns, API, libraries:</p>
 <ul>
